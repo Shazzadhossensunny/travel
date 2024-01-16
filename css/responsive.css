@@ -91,7 +91,8 @@
   .discount_heading,
   .video_container .content,
   .video_container .video_box,
-  .newsletter_container .left {
+  .newsletter_container .left,
+  .services_heading {
     width: 100%;
   }
   .banner_container .banner_content h1 {
@@ -120,7 +121,18 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
-
+  .services_container {
+    margin-top: 32px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+.services_container .card i {
+  font-size: 3rem;
+}
+.services_container .card h3 {
+  font-size: 2rem;
+  margin: 24px 0px 16px;
+}
   .destination_container {
     grid-template-columns: 1fr;
     margin-top: 16px;

@@ -201,11 +201,44 @@ header {
   width: 100%;
 }
 /* popular css end */
+/* services css start */
+.services_container{
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.services_container .card{
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  padding: 24px;
+  border-radius: 6px;
+  transition: all 0.3s linear;
+}
+
+.services_container .card i{
+  font-size: 4.8rem;
+  color: var(--secondary-color);
+}
+.services_container .card h3{
+  color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 32px 0px 16px;
+}
+.services_container .card:hover{
+  background-color: var(--secondary-color);
+}
+.services_container .card:hover i, .services_container .card:hover h3, .services_container .card:hover p{
+  color: var(--white-color);
+}
+
+/* services css end */
 /* destination css start */
 
 .destination_heading,
 .choose_us_heading,
-.discount_heading {
+.discount_heading,
+.services_heading {
   text-align: center;
   width: 643px;
   margin: 0px auto;
