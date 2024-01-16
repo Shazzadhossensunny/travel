@@ -1,53 +1,5 @@
-@media screen and (max-width: 1320px) {
-    .container {
-        width: 100%;
-        padding: 0px 40px;
-      }
-      .newsletter_container .right .save {
-        bottom: 58px;
-
-    }
-
-}
-
-@media screen and (max-width: 1199px) {
-    .container {
-        width: 100%;
-        padding: 0px 40px;
-      }
-      .newsletter_container .right .save {
-        bottom: 73px;
-
-    }
-
-}
-
-
-@media screen and (max-width: 1024px) {
-    .container {
-        width: 100%;
-        padding: 0px 40px;
-      }
-      .newsletter_container .right .save {
-        bottom: 95px;
-
-    }
-
-}
-@media screen and (max-width: 992px) {
-    .container {
-        width: 100%;
-        padding: 0px 40px;
-      }
-      .newsletter_container .right .save {
-        bottom: 102px;
-
-    }
-
-}
-
 /* mobile device start */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600.98px) {
   .container {
     width: 100%;
     padding: 0px 20px;
@@ -246,4 +198,165 @@
   .inner_footer .border2 {
     margin: 24px 0;
   }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (min-width: 601px) and (max-width:767.98px) {
+  .container {
+    width: 100%;
+   padding: 0px 20px;
+}
+.section {
+  margin-top: 34px;
+}
+.menu li {
+  display: none;
+}
+.menu li.hambarg {
+  display: block;
+}
+.banner_container {
+  padding: 45px 25px;
+  margin-top: 0px;
+}
+.banner_container .form_container {
+  gap: 20px;
+  width: 100%;
+  margin-top: 24px;
+  flex-direction: column;
+}
+.banner_container .form_container .form_control, .banner_container .banner_content, .popular_container .content, .popular_container .img_box {
+  width: 100%;
+}
+.popular_container, .video_container, .newsletter_container  {
+  flex-direction: column;
+}
+.destination_heading, .choose_us_heading, .discount_heading, .services_heading, .video_container .content, .video_container .video_box, .newsletter_container .left{
+  width: 100%;
+}
+.services_container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.destination_container {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.destination_container .box-1,
+.destination_container .box-2,
+.destination_container .box-3,
+.destination_container .box-4,
+.destination_container .box-5,
+.destination_container .box-6,
+.destination_container .box-7 {
+  grid-column: span 12;
+}
+.choose_us_container .choose_box {
+  flex-basis: 100%;
+}
+.discount_container .discount_details_box {
+  width: 100%;
+
+}
+.banner_container .banner_content h1 {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+.section_heading {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+.popular_container .content ul {
+  margin: 16px 0px;
+}
+.popular_container .content .primary_btn, .popular_container .img_box, .video_container .video_box video {
+  margin-top: 24px;
+}
+footer {
+  padding: 50px 0px;
+
+}
+.inner_footer .border2 {
+  margin: 25px 0;
+}
+
+
+
+}
+/* Medium devices (tablets, less than 992px) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 100%;
+   padding: 0px 40px;
+}
+.section {
+  margin-top: 40px;
+}
+.menu li {
+  display: none;
+}
+.menu li.hambarg {
+  display: block;
+}
+.banner_container {
+  padding: 50px 25px;
+}
+.banner_container .form_container {
+  width: 100%;
+  margin-top: 35px;
+  flex-direction: column;
+}
+.banner_container .form_container .form_control, .popular_container .content, .popular_container .img_box, .video_container .content, .video_container .video_box, .newsletter_container .left {
+  width: 100%;
+}
+.popular_container, .video_container, .newsletter_container {
+  flex-direction: column;
+}
+.popular_container .img_box, .video_container .video_box{
+  margin-top: 30px;
+}
+.services_container {
+  grid-template-columns: repeat(2, 1fr);
+
+}
+footer {
+  padding: 50px 0px;
+}
+.inner_footer .border2 {
+  margin: 30px 0;
+}
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 100%;
+    padding: 0px 40px;
+}
+.banner_container {
+  padding: 65px 0px;
+
+}
+.section {
+  margin-top: 65px;
+}
+.video_container .video_box h3 {
+  width: 75%;
+}
+.newsletter_container .right .save {
+  bottom: 94px;
+
+}
+footer {
+  padding: 65px 0px;
+}
+
+
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media screen and (min-width:1200px) and (max-width: 1399.98px) {
+  .container {
+    width: 100%;
+}
+
 }
